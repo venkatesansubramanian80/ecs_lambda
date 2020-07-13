@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "ecs-lambda"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1mzplg0arqf44"
+s3_prefix = "ecs-lambda"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+
